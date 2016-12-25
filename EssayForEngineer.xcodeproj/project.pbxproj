@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A4339291E10030500BE16B6 /* EssayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4339281E10030500BE16B6 /* EssayListTableViewController.swift */; };
+		3A43392B1E1007E400BE16B6 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A43392A1E1007E400BE16B6 /* NotificationService.swift */; };
 		3AE5778C1E0FFC4B0098CF4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE5778B1E0FFC4B0098CF4B /* AppDelegate.swift */; };
 		3AE577911E0FFC4B0098CF4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AE5778F1E0FFC4B0098CF4B /* Main.storyboard */; };
 		3AE577931E0FFC4B0098CF4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE577921E0FFC4B0098CF4B /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		3A4339281E10030500BE16B6 /* EssayListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssayListTableViewController.swift; sourceTree = "<group>"; };
+		3A43392A1E1007E400BE16B6 /* NotificationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		3AE577881E0FFC4B0098CF4B /* EssayForEngineer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssayForEngineer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE5778B1E0FFC4B0098CF4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AE577901E0FFC4B0098CF4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				3AE5778B1E0FFC4B0098CF4B /* AppDelegate.swift */,
 				3A4339281E10030500BE16B6 /* EssayListTableViewController.swift */,
+				3A43392A1E1007E400BE16B6 /* NotificationService.swift */,
 				3AE5778F1E0FFC4B0098CF4B /* Main.storyboard */,
 				3AE577921E0FFC4B0098CF4B /* Assets.xcassets */,
 				3AE577941E0FFC4B0098CF4B /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE5778C1E0FFC4B0098CF4B /* AppDelegate.swift in Sources */,
+				3A43392B1E1007E400BE16B6 /* NotificationService.swift in Sources */,
 				3A4339291E10030500BE16B6 /* EssayListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
