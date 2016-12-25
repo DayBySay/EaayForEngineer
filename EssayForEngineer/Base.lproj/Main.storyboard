@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--エッセイ-->
         <scene sceneID="DEA-Jf-xEj">
             <objects>
-                <tableViewController id="LjA-4W-PM6" customClass="EssayListTableViewController" customModule="EssayForEngineer" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="エッセイ" id="LjA-4W-PM6" customClass="EssayListTableViewController" customModule="EssayForEngineer" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uVy-Y4-bO7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="LjA-4W-PM6" id="vHh-oS-zLG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="eZl-yD-llr"/>
+                    <navigationItem key="navigationItem" title="エッセイ一覧" id="eZl-yD-llr"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uc3-MY-SZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
