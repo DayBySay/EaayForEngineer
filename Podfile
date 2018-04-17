@@ -6,6 +6,6 @@ target 'EssayForEngineer' do
   use_frameworks!
 
   # Pods for EssayForEngineer
-  pod 'Eureka'
+  pod 'Eureka', "2.0.0-beta.1"
 
 end
